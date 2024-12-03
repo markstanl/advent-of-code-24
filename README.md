@@ -20,7 +20,7 @@ with the day number.
 |-----|-----------------------------------------------------------|-------|----------------------|
 | 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1) | ★★    | [d1.py](d1/d1.py)    |
 | 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | ★★    | [d2.py](d2/d2.py)    |
-| 3   | [??](https://adventofcode.com/2024/day/3)                 | ☆☆    | [d3.py](d3/d3.py)    |
+| 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | ★★    | [d3.py](d3/d3.py)    |
 | 4   | [??](https://adventofcode.com/2024/day/4)                 | ☆☆    | [d4.py](d4/d4.py)    |
 | 5   | [??](https://adventofcode.com/2024/day/5)                 | ☆☆    | [d5.py](d5/d5.py)    |
 | 6   | [??](https://adventofcode.com/2024/day/6)                 | ☆☆    | [d6.py](d6/d6.py)    |

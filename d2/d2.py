@@ -28,6 +28,13 @@ def check_descend(line):
 
 
 def solve_part_one(split_lists):
+    """
+    The solution is not necessarily the most efficient, but it works, and it's
+    time complexity is O(n) where n is the number of lines in the input file,
+    which is the best possible.
+    :param split_lists:
+    :return:
+    """
     safe_count = 0
     for line in split_lists:
         if line[0] < line[1]:
@@ -43,6 +50,13 @@ def solve_part_one(split_lists):
 
 
 def solve_part_two(split_lists):
+    """
+    This is a brute force solution. It is not efficient. But, it solves the
+    problem! I may go back and try again at a future date for a more efficient
+    solution.
+    :param split_lists:
+    :return:
+    """
     safe_count = 0
     for line in split_lists:
         if line[0] < line[1]:
