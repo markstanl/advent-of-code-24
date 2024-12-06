@@ -23,7 +23,7 @@ with the day number.
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | ★★    | [d3.py](d3/d3.py)    |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | ★★    | [d4.py](d4/d4.py)    |
 | 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | ★★    | [d5.py](d5/d5.py)    |
-| 6   | [??](https://adventofcode.com/2024/day/6)                 | ☆☆    | [d6.py](d6/d6.py)    |
+| 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)    | ★★    | [d6.py](d6/d6.py)    |
 | 7   | [??](https://adventofcode.com/2024/day/7)                 | ☆☆    | [d7.py](d7/d7.py)    |
 | 8   | [??](https://adventofcode.com/2024/day/8)                 | ☆☆    | [d8.py](d8/d8.py)    |
 | 9   | [??](https://adventofcode.com/2024/day/9)                 | ☆☆    | [d9.py](d9/d9.py)    |
