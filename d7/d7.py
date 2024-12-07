@@ -1,5 +1,9 @@
 """
 --- Day 7: Bridge Repair ---
+Honestly not too bad of a day. We solve this problem recursively, by
+considering all possibilities of operations on the numbers. Even if there is a
+cool algorithm to figure out which operations to use, I think that this is not
+too bad of a solution! I'm happy with it.
 """
 
 def read_file(file_path):
@@ -52,6 +56,9 @@ def determine_validity(num, nums, operations):
 
 
 def solve_part_one(file):
+    """
+    Solves part one of the problem.
+    """
     count = 0
     for line in file:
         if determine_validity(line[0], line[1], []):
@@ -80,6 +87,10 @@ def perform_two_math(original_nums, operations):
 
 
 def determine_two_validity(num, nums, operations):
+    """
+    Recursively tests all possibilities of operations on the numbers to see if
+    the result is the given number, using the helper method
+    """
     if len(operations) == len(nums) - 1:
         if perform_two_math(nums, operations) == num:
             return True
@@ -93,6 +104,9 @@ def determine_two_validity(num, nums, operations):
 
 
 def solve_part_two(file):
+    """
+    Solves part two of the problem.
+    """
     count = 0
     for line in file:
         if determine_two_validity(line[0], line[1], []):
